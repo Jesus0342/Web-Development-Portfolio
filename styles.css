@@ -1,0 +1,213 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+a, a:active, a:visited, a:focus
+{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+h1 
+{
+    font-size: 96px;
+}
+
+h2
+{
+    font-size: 52px;
+    text-decoration: none;
+}
+
+.circle
+{
+    border-radius: 50%;
+}
+
+/**********
+ * NAVBAR *
+ **********/
+nav
+{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #000;
+}
+
+.heading-wrapper
+{
+    display: none;
+}
+
+.nav
+{
+    width: 45%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item
+{
+    font-size: 28px;
+}
+
+.nav-item:hover
+{
+    color: #ff0;
+}
+
+/***********
+ * SECTION *
+ ***********/
+ .sections-wrapper
+ {
+    height: 90vh;
+    width: 100vw;
+    overflow-x: scroll;
+ }
+
+ section
+ {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: powderblue;
+ }
+
+ .section-content
+ {
+    height: 80%;
+    width: 75%;
+    display: flex;
+ }
+
+ /* WELCOME */
+ #welcome-content
+ {
+    
+ }
+
+ #profile-pic-wrapper
+ {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #profile-pic img
+ {
+    height: 100%;
+ }
+
+ #profile-pic
+ {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #about-me-wrapper
+ {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #name-wrapper
+ {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ #last-name
+ {
+    margin-top: -50px;
+ }
+
+ #job-title
+ {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    margin-top: -45px;
+ }
+
+ #link-wrapper
+ {
+    height: 35%;
+    width: 70%;
+    margin: -75px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+ .my-links
+{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    background: #000;
+}
+
+.my-links:hover
+{
+    color: #ff0;
+}
+
+@media screen and (max-width: 768px)
+{
+    nav
+    {
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading-wrapper
+    {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav
+    {
+        height: 50vh;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
