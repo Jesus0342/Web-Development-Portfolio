@@ -40,7 +40,7 @@
                     <div id="link-wrapper">
                         <a class="circle my-links" href="files/anniversary.png" download><i class="fa fa-download" aria-hidden="true"></i></a>
                         <a class="circle my-links" href="https://github.com/Jesus0342" target="blank"><i class="fa fa-github-alt"></i></a>
-                        <a class="circle my-links" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a class="circle my-links" href="https://www.linkedin.com/in/jesus-sanchez-01213919a/" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
