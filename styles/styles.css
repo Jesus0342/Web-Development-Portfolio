@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body
@@ -30,9 +31,69 @@ h2
     text-decoration: none;
 }
 
+textarea
+{
+    resize: none;
+}
+
+button
+{
+    background: none;
+    outline: none;
+    border: none;
+    background: #000;
+    color: #fff;
+}
+
+a:hover, button:hover
+{
+    color: #ff0;
+    cursor: pointer;
+}
+
 .circle
 {
     border-radius: 50%;
+}
+
+.small-box
+{
+    height: 50px;
+    width: 50px;
+}
+
+.rounded
+{
+    background: #eee;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+}
+
+.form-title
+{
+
+}
+
+.form-input-wrapper
+{
+    height: 80%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input, input:focus
+{
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: solid 1px #000;
+    width: 100%;
+    padding: 15px 0 0 0;
+    height: 48px;
+    font-size: 22px;
 }
 
 /**********
@@ -63,11 +124,6 @@ nav
 .nav-item
 {
     font-size: 28px;
-}
-
-.nav-item:hover
-{
-    color: #ff0;
 }
 
 /***********
@@ -172,18 +228,11 @@ nav
 
  .my-links
 {
-    height: 50px;
-    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 28px;
     background: #000;
-}
-
-.my-links:hover
-{
-    color: #ff0;
 }
 
 @media screen and (max-width: 768px)
