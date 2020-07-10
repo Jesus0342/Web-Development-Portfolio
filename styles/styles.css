@@ -148,9 +148,16 @@ nav
 
  .section-content
  {
-    height: 80%;
+    height: 95%;
     width: 75%;
     display: flex;
+ }
+
+ .carousel-page
+ {
+    height: 95%;
+    width: 75%;
+    display: none;
  }
 
  /* WELCOME */
@@ -216,14 +223,18 @@ nav
     margin-top: -45px;
  }
 
- #link-wrapper
+ .link-wrapper
  {
     height: 35%;
     width: 70%;
-    margin: -75px auto 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+ }
+
+ #welcome-links
+ {
+    margin: -75px auto 0 auto;
  }
 
  .my-links
@@ -233,6 +244,17 @@ nav
     align-items: center;
     font-size: 28px;
     background: #000;
+}
+
+.opaque-bg
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 768px)

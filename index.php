@@ -1,3 +1,7 @@
+<?php
+    include 'includes/class-autoload.inc.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +25,22 @@
         </ul>
     </nav>
 
-    <div class="sections-wrapper">
+    <!-- carousel-page -->
+
+    <div class="sections-wrapper" style="background-color: red">
+        <section>
+            <div id="section-pg-1" class="carousel-page">
+                1
+            </div>
+
+            <div id="section-pg-2" class="carousel-page">
+                2
+            </div>
+
+            <div id="section-pg-3" class="carousel-page">
+                3
+            </div>
+        </section>
         <?php 
             include 'welcome.php';
             include 'projects.php';
@@ -34,6 +53,6 @@
 <script>
     $(document).ready(function()
     {
-        alert("a");
+        // alert("a");
     });
 </script>

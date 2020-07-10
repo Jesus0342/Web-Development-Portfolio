@@ -14,7 +14,7 @@
 
             <h2 id="job-title">Full Stack Web Developer</h2>
 
-            <div id="link-wrapper">
+            <div id="welcome-links" class="link-wrapper">
                 <a class="circle small-box my-links" href="files/anniversary.png" download><i class="fa fa-download" aria-hidden="true"></i></a>
                 <a class="circle small-box my-links" href="https://github.com/Jesus0342" target="blank"><i class="fa fa-github-alt"></i></a>
                 <a class="circle small-box my-links" href="https://www.linkedin.com/in/jesus-sanchez-01213919a/" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
