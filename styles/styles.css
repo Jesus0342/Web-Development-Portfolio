@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 body
@@ -15,18 +15,22 @@ body
 
 a, a:active, a:visited, a:focus
 {
+    color: #fff;
     text-decoration: none;
     outline: none;
-    color: #fff;
 }
 
 h1 
 {
+    color: #fff;
+    text-shadow: 0 0 1px #000;
     font-size: 96px;
 }
 
 h2
 {
+    color: #fff;
+    text-shadow: 0 0 1px #000;
     font-size: 52px;
     text-decoration: none;
 }
@@ -41,13 +45,13 @@ button
     background: none;
     outline: none;
     border: none;
-    background: #000;
+    background: #29496a;
     color: #fff;
 }
 
 a:hover, button:hover
 {
-    color: #ff0;
+    text-shadow: 0 0 10px #fff;
     cursor: pointer;
 }
 
@@ -64,7 +68,6 @@ a:hover, button:hover
 
 .rounded
 {
-    background: #eee;
     border-radius: 5px;
     border: 1px solid #d3d3d3;
 }
@@ -104,7 +107,7 @@ nav
     height: 10vh;
     display: flex;
     justify-content: flex-start;
-    background-color: #000;
+    background: #29496a;
 }
 
 .heading-wrapper
@@ -131,19 +134,24 @@ nav
  ***********/
  .sections-wrapper
  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 90vh;
-    width: 100vw;
-    overflow-x: scroll;
+    width: 100%;
+    overflow-y: scroll;
  }
 
  section
  {
     height: 100%;
     width: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: powderblue;
+    background: #bdd3eb;
  }
 
  .section-content
@@ -151,13 +159,40 @@ nav
     height: 95%;
     width: 75%;
     display: flex;
+    padding: 0 0 25px 0;
  }
 
  .carousel-page
  {
-    height: 95%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
     display: none;
+ }
+
+ .carousel-nav-wrappper
+ {
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .carousel-btn
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+ }
+
+ .carousel-page-indicator
+ {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #000;
+    background: #7c8ea2;
  }
 
  /* WELCOME */
@@ -239,11 +274,11 @@ nav
 
  .my-links
 {
+    background: hsl(211, 44%, 29%);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 28px;
-    background: #000;
 }
 
 .opaque-bg
@@ -269,7 +304,7 @@ nav
     .heading-wrapper
     {
         height: 10vh;
-        width: 100vw;
+        width: 100%;
         display: flex;
         border-bottom: 1px solid #fff;
     }

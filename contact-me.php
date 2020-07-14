@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="styles/contact-me.style.css">
 
-<section id="contact-me">
+<section id="contact-pg" class="page-3 carousel-page">
     <div id="contact-content" class="section-content">
-        <form id="contact-me-form" class="rounded" action="includes/contact-me/submit-msg.inc.php" method="post">
+        <form id="contact-form" class="rounded" action="includes/contact-me/submit-msg.inc.php" method="post">
             <h2 class="form-title">Contact Me</h2>
 
             <div class="form-input-wrapper">

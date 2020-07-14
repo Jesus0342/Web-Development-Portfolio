@@ -1,4 +1,4 @@
-<section id="welcome">
+<section id="welcome-pg" class="page-1 carousel-page">
     <div id="welcome-content" class="section-content">
         <div id="profile-pic-wrapper">
             <div id="profile-pic" class="circle">
