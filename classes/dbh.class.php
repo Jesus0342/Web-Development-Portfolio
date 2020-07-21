@@ -2,10 +2,10 @@
 
 class Dbh 
 {
-    private $host = "db4free.net";
-    private $user = "jesus_san97";
-    private $pwd = "Pochiix33";
-    private $dbName = "jsanchezfolio";
+    private $host = "jsanportfolio.cuevwfjjwe6r.us-west-1.rds.amazonaws.com";
+    private $user = "admin";
+    private $pwd = "Pochii<3";
+    private $dbName = "jsanportfolio";
 
     public function connect()
     {

@@ -36,20 +36,17 @@
         ?>
 
         <div class="carousel-nav-wrappper">
-            <button id="section-carousel-prev" class="circle small-box carousel-btn">
-                <i class="fa fa-angle-left"></i>
-            </button>
-
             <div id="welcome-pg-indicator" class="circle small-box carousel-page-indicator page-indicator-1"></div>
             <div id="projects-pg-indicator" class="circle small-box carousel-page-indicator page-indicator-2"></div>
-            
-            <button id="section-carousel-next" class="circle small-box carousel-btn">
-                <i class="fa fa-angle-right"></i>
-            </button>
         </div>
-        <?php 
-            
-        ?>
+
+        <button id="section-carousel-prev" class="circle small-box carousel-btn">
+            <i class="fa fa-angle-left"></i>
+        </button>
+
+        <button id="section-carousel-next" class="circle small-box carousel-btn">
+            <i class="fa fa-angle-right"></i>
+        </button>
     </div>
 </body>
 </html>

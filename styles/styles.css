@@ -18,6 +18,7 @@ a, a:active, a:visited, a:focus
     color: #fff;
     text-decoration: none;
     outline: none;
+    transition: text-shadow 0.3s ease;
 }
 
 h1 
@@ -47,6 +48,7 @@ button
     border: none;
     background: #29496a;
     color: #fff;
+    transition: text-shadow 0.5s ease;
 }
 
 a:hover, button:hover
@@ -156,10 +158,10 @@ nav
 
  .section-content
  {
-    height: 95%;
-    width: 75%;
+    height: 100%;
+    width: 80%;
     display: flex;
-    padding: 0 0 25px 0;
+    background: #3d658f;
  }
 
  .carousel-page
@@ -174,7 +176,7 @@ nav
     position: absolute;
     bottom: 15px;
     display: flex;
-    width: 30%;
+    width: 7%;
     justify-content: space-between;
     align-items: center;
  }
@@ -184,7 +186,22 @@ nav
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 36px;
+    height: 80px;
+    width: 80px;
+    font-size: 56px;
+    position: absolute;
+ }
+
+ #section-carousel-prev
+ {
+    left: 2%;
+    top: 50%;
+ }
+
+ #section-carousel-next
+ {
+    right: 2%;
+    top: 50%;
  }
 
  .carousel-page-indicator
@@ -204,7 +221,7 @@ nav
  #profile-pic-wrapper
  {
     height: 100%;
-    width: 40%;
+    width: 43%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,8 +234,8 @@ nav
 
  #profile-pic
  {
-    height: 500px;
-    width: 500px;
+    height: 430px;
+    width: 430px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,7 +244,7 @@ nav
  #about-me-wrapper
  {
     height: 100%;
-    width: 60%;
+    width: 57%;
     display: flex;
     flex-direction: column;
     align-items: center;
